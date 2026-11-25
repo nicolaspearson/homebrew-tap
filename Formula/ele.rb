@@ -1,27 +1,27 @@
 class Ele < Formula
   desc "Cross-session memory for Claude Code"
   homepage "https://github.com/nicolaspearson/claude-ephant"
-  version "1.4.0"
+  version "1.5.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/nicolaspearson/claude-ephant/releases/download/v1.4.0/ele_darwin_arm64.tar.gz"
-      sha256 "2840985357cd3242d066c6567ad7e68cfd4290c0883b1f2cae174782d822a6c3"
+      url "https://github.com/nicolaspearson/claude-ephant/releases/download/v1.5.0/ele_darwin_arm64.tar.gz"
+      sha256 "a01b41e124fa38147a1d3393c679157b2849106a6eaacd0bd7731b80206e2cec"
     end
     on_intel do
-      url "https://github.com/nicolaspearson/claude-ephant/releases/download/v1.4.0/ele_darwin_amd64.tar.gz"
-      sha256 "2e6a662fcb20217abc06655938a1f8540a63972dac2ebe3f559cb8134ef3b53e"
+      url "https://github.com/nicolaspearson/claude-ephant/releases/download/v1.5.0/ele_darwin_amd64.tar.gz"
+      sha256 "9902205e02ff1a768eec60088b56cb5939296b98f5cc2b85713c5cc705062c45"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/nicolaspearson/claude-ephant/releases/download/v1.4.0/ele_linux_arm64.tar.gz"
-      sha256 "4a10819af272213f6955c9781d6831ecf84a076ae43aeb03113456b08af7a02f"
+      url "https://github.com/nicolaspearson/claude-ephant/releases/download/v1.5.0/ele_linux_arm64.tar.gz"
+      sha256 "f464106cbfab907b78a2be47c5fe63fc17eee0e02a81fb7d612053c7ebd6c8d0"
     end
     on_intel do
-      url "https://github.com/nicolaspearson/claude-ephant/releases/download/v1.4.0/ele_linux_amd64.tar.gz"
-      sha256 "c517dcf83ec136f3798a4d5035f27e4b4f2e84f7c82fc11d27dc8781daf373b8"
+      url "https://github.com/nicolaspearson/claude-ephant/releases/download/v1.5.0/ele_linux_amd64.tar.gz"
+      sha256 "3df6798e5091002a276288062adf196d5e6a8a47c0cc7de1dc3fc6779cc96faa"
     end
   end
 
